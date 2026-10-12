@@ -1,16 +1,11 @@
 ## INTRODUCTION
 
-The digitalia_muni_group_permissions module is a DESCRIBE_THE_MODULE_HERE.
+The digitalia_muni_group_permissions module extends permission system of group module.
 
-The primary use case for this module is:
-
-- Use case #1
-- Use case #2
-- Use case #3
 
 ## REQUIREMENTS
 
-DESCRIBE_MODULE_DEPENDENCIES_HERE
+drupal/group
 
 ## INSTALLATION
 
@@ -18,13 +13,7 @@ Install as you would normally install a contributed Drupal module.
 See: https://www.drupal.org/node/895232 for further information.
 
 ## CONFIGURATION
-- Configuration step #1
-- Configuration step #2
-- Configuration step #3
 
-## MAINTAINERS
+In group permission config, add desired permissions to users. This functions for direct access to enties only, for expected views functionality a [patch](https://github.com/ArtsFacultyMU/digitalia-patches/blob/main/EntityQueryAlter.patch) for group module is needed.
 
-Current maintainers for Drupal 10:
-
-- FIRST_NAME LAST_NAME (NICKNAME) - https://www.drupal.org/u/NICKNAME
 
