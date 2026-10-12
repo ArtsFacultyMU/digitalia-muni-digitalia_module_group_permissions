@@ -1,11 +1,14 @@
 ## INTRODUCTION
 
-The digitalia_muni_group_permissions module extends permission system of group module.
+The digitalia_muni_group_permissions module extends permission system of group module. Node access is determined by value in `field_access_rights`, media access is determined by value in `field_access_rights` of node referenced in `field_media_of`.
 
 
 ## REQUIREMENTS
 
 drupal/group
+Two fields
+- field_access_rights - type select list, with choices `embargoed_access`, `metadata_only_access`, `open_access`, `restricted_access`, `restricted_metadata_only_access`
+- field_embargo_end_date - type Date
 
 ## INSTALLATION
 
