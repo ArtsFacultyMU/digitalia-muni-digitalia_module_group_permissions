@@ -1,0 +1,7 @@
+name: 'digitalia_muni_group_permissions'
+type: module
+description: 'Custom permissions for group module'
+package: digitalia
+core_version_requirement: ^10 || ^11
+dependencies:
+  - group:group

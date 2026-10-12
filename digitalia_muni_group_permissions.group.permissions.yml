@@ -1,0 +1,2 @@
+permission_callbacks:
+  - '\Drupal\digitalia_muni_group_permissions\Plugin\Group\RelationHandler\DMPermissionProvider::groupPermissions'

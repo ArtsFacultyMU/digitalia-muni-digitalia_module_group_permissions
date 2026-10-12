@@ -1,0 +1,10 @@
+services:
+  group.relation_handler.access_control.group_node:
+    class: 'Drupal\digitalia_muni_group_permissions\Plugin\Group\RelationHandler\DMNodeAccessControl'
+    arguments: ['@group.relation_handler.access_control']
+    shared: false
+
+  group.relation_handler.access_control.group_media:
+    class: 'Drupal\digitalia_muni_group_permissions\Plugin\Group\RelationHandler\DMMediaAccessControl'
+    arguments: ['@group.relation_handler.access_control']
+    shared: false
